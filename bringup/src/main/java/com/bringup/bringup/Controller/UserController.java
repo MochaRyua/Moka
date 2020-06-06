@@ -29,7 +29,8 @@ public class UserController {
     }
 
     @GetMapping("/mypage")
-    public List<MyPage> page() {
-        return service.pageList();
+    public List<MyPage> page(@RequestHeader("Authorization") String token) {
+
+        return service.pageList(token);
     }
 }

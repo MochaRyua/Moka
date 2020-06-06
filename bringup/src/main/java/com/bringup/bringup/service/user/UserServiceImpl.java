@@ -47,7 +47,9 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
-    public List<MyPage> pageList() {
+    public List<MyPage> pageList(String token) {
+
+        int uuid = tokenService.parseToken(token);
 
         List<MyPage> list = new ArrayList<>();
 

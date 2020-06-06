@@ -10,5 +10,5 @@ public interface UserService {
 
     public void SignUp(SignUpRequest signUpRequest);
     public void changPw(String token, UserPw userPw);
-    public List<MyPage> pageList();
+    public List<MyPage> pageList(String token);
 }
