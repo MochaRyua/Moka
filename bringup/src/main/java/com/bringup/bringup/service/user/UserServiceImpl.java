@@ -39,7 +39,7 @@ public class UserServiceImpl implements UserService{
     @Override
     public void changPw(String token, UserPw userPw) {
 
-        int uuid = tokenService.parseRefreshToken(token);
+        int uuid = tokenService.parseToken(token);
         UserEntity user = userRepository.findById(uuid).orElseThrow(UserNotFoundException::new);
         user.setUserPw(userPw.getUserPw());
 

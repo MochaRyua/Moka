@@ -1,0 +1,13 @@
+server:
+  port: 8000
+  servlet:
+    session:
+      timeout: 30
+  ssl:
+    enabled: true
+    key-alias: moka
+    key-store: moka.pkcs12
+    key-store-password: '@gold@'
+    key-password: '@gold@'
+    trust-store: gold.pkcs12
+    trust-store-password: '@gold@'
