@@ -1,7 +1,7 @@
 package com.bringup.bringup.Controller;
 
 
-import com.bringup.bringup.domain.payload.Request.SignInRequest;
+import com.bringup.bringup.domain.payload.request.user.SignInRequest;
 import com.bringup.bringup.domain.payload.response.TokenResponse;
 import com.bringup.bringup.service.user.AuthServiceImpl;
 import lombok.AllArgsConstructor;

@@ -1,6 +1,6 @@
 package com.bringup.bringup.service.user;
 
-import com.bringup.bringup.domain.payload.Request.SignInRequest;
+import com.bringup.bringup.domain.payload.request.user.SignInRequest;
 import com.bringup.bringup.domain.payload.response.TokenResponse;
 
 public interface AuthService {

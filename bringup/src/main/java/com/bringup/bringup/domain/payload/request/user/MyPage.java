@@ -1,4 +1,4 @@
-package com.bringup.bringup.domain.payload.Request;
+package com.bringup.bringup.domain.payload.request.user;
 
 import lombok.Builder;
 import lombok.Data;

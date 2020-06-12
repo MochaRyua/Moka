@@ -1,8 +1,8 @@
 package com.bringup.bringup.service.user;
 
-import com.bringup.bringup.domain.payload.Request.MyPage;
-import com.bringup.bringup.domain.payload.Request.SignUpRequest;
-import com.bringup.bringup.domain.payload.Request.UserPw;
+import com.bringup.bringup.domain.payload.request.user.MyPage;
+import com.bringup.bringup.domain.payload.request.user.SignUpRequest;
+import com.bringup.bringup.domain.payload.request.user.UserPw;
 
 import java.util.List;
 
